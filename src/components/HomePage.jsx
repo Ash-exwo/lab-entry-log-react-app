@@ -1,4 +1,5 @@
 import React from 'react'
+import NavBar from './NavBar'
 const HomePage = () => {
     return (
         <div
@@ -7,6 +8,7 @@ const HomePage = () => {
                 minHeight: "100vh"
             }}
         >
+            <NavBar/>
             <div className="container">
                 <div
                     className="row align-items-center justify-content-center text-center"
