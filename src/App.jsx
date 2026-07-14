@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import AddLab from "./components/AddLab"
+import ViewLab from "./components/ViewLab"
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/add-lab" element={<AddLab/>}/>
+      <Route path="/view-lab" element={<ViewLab/>}/>
     </Routes>
     </BrowserRouter>
     </>
